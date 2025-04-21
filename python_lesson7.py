@@ -2,7 +2,7 @@ import ptbot
 import os
 import random
 
-from decouple import config
+
 from pytimeparse import parse
 from dotenv import load_dotenv
 
