@@ -37,7 +37,7 @@ def timer(chat_id, message, bot):
 
 def main():
     load_dotenv()
-    tg_token = os.environ['tg_token'] 
+    TG_TOKEN = os.environ['TG_TOKEN'] 
     bot = ptbot.Bot(tg_token)
     bot.reply_on_message(reply, bot = bot)
     bot.run_bot()
